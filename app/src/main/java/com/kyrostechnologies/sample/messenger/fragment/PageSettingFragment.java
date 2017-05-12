@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.balysv.materialripple.MaterialRippleLayout;
+import com.kyrostechnologies.sample.messenger.AboutUs;
 import com.kyrostechnologies.sample.messenger.R;
 
 
@@ -27,7 +28,8 @@ public class PageSettingFragment extends Fragment {
         about_us.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getActivity(),)
+                Intent i=new Intent(getActivity(), AboutUs.class);
+                startActivity(i);
             }
         });
         return root_view;
