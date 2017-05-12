@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.kyrostechnologies.sample.messenger"
+        applicationId "com.kyrostechnologies.template.messenger"
         minSdkVersion 14
         targetSdkVersion 24
         versionCode 7

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kyrostechnologies.sample.messenger">
+    package="com.kyrostechnologies.template.messenger">
 
     <application
         android:allowBackup="true"
@@ -8,19 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.kyrostechnologies.sample.messenger.ActivityMain"/>
-        <activity android:name="com.kyrostechnologies.sample.messenger.ActivityChatDetails" />
-        <activity android:name="com.kyrostechnologies.sample.messenger.ActivityCalling" />
-        <activity android:name="com.kyrostechnologies.sample.messenger.ActivityVideo" />
-        <activity android:name="com.kyrostechnologies.sample.messenger.ActivityGroupDetails" />
-        <activity android:name="com.kyrostechnologies.sample.messenger.ActivityViewProfile" />
-        <activity android:name="com.kyrostechnologies.sample.messenger.ActivitySplash">
+        <activity android:name="com.kyrostechnologies.template.messenger.ActivityMain"/>
+        <activity android:name="com.kyrostechnologies.template.messenger.ActivityChatDetails" />
+        <activity android:name="com.kyrostechnologies.template.messenger.ActivityCalling" />
+        <activity android:name="com.kyrostechnologies.template.messenger.ActivityVideo" />
+        <activity android:name="com.kyrostechnologies.template.messenger.ActivityGroupDetails" />
+        <activity android:name="com.kyrostechnologies.template.messenger.ActivityViewProfile" />
+        <activity android:name="com.kyrostechnologies.template.messenger.ActivitySplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AboutUs"/>
+        <activity android:name="com.kyrostechnologies.template.messenger.AboutUs"/>
     </application>
 
 </manifest>
